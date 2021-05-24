@@ -3,7 +3,7 @@ from typing import Counter
 
 values = [47, 95, 88, 73, 88, 84]
 
-sort = sorted(values)
+values.sort()
 count = (len(values))
 print("Count = ", count)
 
@@ -19,7 +19,7 @@ if (count % 2==0):
 else:
     median = values[count//2]
 
-print("Median = ", median)
+print("Median = ", str(median))
 
 data = Counter(values)
 get_mode = dict(data)
