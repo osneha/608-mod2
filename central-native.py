@@ -2,12 +2,12 @@ from typing import Counter
 
 
 values = [47, 95, 88, 73, 88, 84]
+values.sort() # added sort for median
 
-values.sort()
 count = (len(values))
 print("Count = ", count)
 
-print("Sum = ",sum(values))
+print("Sum = ",sum(values)) 
 
 print("Mean = ", sum(values)/len(values) )
 
